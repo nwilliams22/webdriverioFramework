@@ -17,7 +17,5 @@ https://github.com/nwilliams22/webdriverioframework.git{
   },
   "homepage": "https://github.com/nwilliams22/webdriverioframework#readme",
   "devDependencies": {
-    "mocha": "^6.2.0",
-    "webdriverio": "^5.12.5"
   }
 }
