@@ -1,4 +1,4 @@
-https://github.com/nwilliams22/webdriverioframework.git{
+{
   "name": "webdriverioframework",
   "version": "1.0.0",
   "description": "",
@@ -8,14 +8,16 @@ https://github.com/nwilliams22/webdriverioframework.git{
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:nwilliams22/webdriverioFramework.git"
+    "url": "git+https://github.com/nwilliams22/webdriverioFramework.git"
   },
   "author": "Nick Williams",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nwilliams22/webdriverioframework/issues"
+    "url": "https://github.com/nwilliams22/webdriverioFramework/issues"
   },
-  "homepage": "https://github.com/nwilliams22/webdriverioframework#readme",
+  "homepage": "",
   "devDependencies": {
+    "selenium-standalone": "^6.15.3",
+    "webdriverio": "^4.13.2"
   }
 }
