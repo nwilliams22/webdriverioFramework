@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nwilliams22/webdriverioframework/issues"
   },
-  "homepage": "https://github.com/nwilliams22/webdriverioframework#readme"
+  "homepage": "https://github.com/nwilliams22/webdriverioframework#readme",
+  "devDependencies": {
+    "webdriverio": "^5.12.5"
+  }
 }
