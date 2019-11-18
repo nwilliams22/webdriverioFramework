@@ -1,0 +1,35 @@
+{
+  "name": "webdriverioframework",
+  "version": "1.0.0",
+  "description": "Webdriver.io Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwilliams22/webdriverioFramework.git"
+  },
+  "author": "Nick Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nwilliams22/webdriverioFramework/issues"
+  },
+  "homepage": "https://github.com/nwilliams22/webdriverioFramework#readme",
+  "devDependencies": {
+    "@wdio/local-runner": "^5.16.6",
+    "@wdio/mocha-framework": "^5.16.5",
+    "@wdio/spec-reporter": "^5.16.5",
+    "@wdio/sync": "^5.16.5",
+    "chromedriver": "^78.0.1",
+    "mocha": "^6.2.2",
+    "selenium-standalone": "^6.16.0",
+    "wdio-chromedriver-service": "^5.0.2",
+    "webdriverio": "^5.16.6"
+  },
+  "dependencies": {
+    "@wdio/cli": "^5.16.6",
+    "geckodriver": "^1.19.1",
+    "readable-stream": "^3.4.0"
+  }
+}
