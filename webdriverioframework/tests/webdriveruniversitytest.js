@@ -1,25 +1,21 @@
 describe("Verify webdriveruniversity links on homepage", function(){
   it("check that contact us button opens correct page", function(done){
-    return browser
-      setViewportSize({
+      browser.setViewportSize({
         width: 1200,
         height: 800
       })
-      url('http://www.webdriveruniversity.com/')
-      getTitle().then(function(title) {
-        console.log('Title is: ' + title);
-      })
-      click("#contact-us")
-      pause(3000)
-
+      browser.url('http://www.webdriveruniversity.com/')
+      var title = browser.getTitle()
+      console.log('Title is: ' + title);
+      browser.click("#contact-us")
+      browser.pause(3000)
   });
-  
+
   it("login button opens login portal", function(done){
-    return browser
-      url('http://www.webdriveruniversity.com/')
-      click('#login-portal')
-      getTitle().then(function(title) {
-        console.log('Title is: ' + title);
-      })
+      browser.url('http://www.webdriveruniversity.com/')
+      browser.click('#login-portal')
+      var title = browser.getTitle()
+      console.log('Title is: ' + title);
+      browser.pause(3000)
   });
 });
