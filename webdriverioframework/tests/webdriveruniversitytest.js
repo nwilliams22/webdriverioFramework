@@ -4,7 +4,7 @@ describe("Verify webdriveruniversity links on homepage", function(){
         width: 1200,
         height: 800
       })
-      browser.url('http://www.webdriveruniversity.com/')
+      browser.url('/')
       var title = browser.getTitle()
       console.log('Title is: ' + title);
       browser.click("#contact-us")
@@ -12,7 +12,7 @@ describe("Verify webdriveruniversity links on homepage", function(){
   });
 
   it("login button opens login portal", function(done){
-      browser.url('http://www.webdriveruniversity.com/')
+      browser.url('/')
       browser.click('#login-portal')
       var title = browser.getTitle()
       console.log('Title is: ' + title);

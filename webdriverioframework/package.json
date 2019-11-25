@@ -4,7 +4,7 @@
   "description": "Webdriver.io Framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "wdio"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "mocha": "^6.2.2",
     "selenium-standalone": "^6.16.0",
     "wdio-chromedriver-service": "^5.0.2",
+    "wdio-selenium-standalone-service": "0.0.12",
     "webdriverio": "^5.16.6"
   },
   "dependencies": {
